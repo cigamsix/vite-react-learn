@@ -69,12 +69,23 @@ h1{
   z-index: 100;
   font-family: "Kiwi Maru";
   font-weight: 1000;
-  color: rgb(254, 218, 255); 
+  color: white;
+}
+
+small {
+  color: rgb(255, 210, 221);
+  font-weight: 1;
+}
+
+sub {
+  color: rgb(255, 210, 221);
+  font-size: 1.5rem;
+  font-weight: 1000;
 }
 
 .main--title {
   margin: 0;
-  font-size: 39px;
+  font-size: 3rem;
   letter-spacing: 0.05em;
 }
 
@@ -84,8 +95,8 @@ h1{
 }
 
 .main--facts > li {
-  line-height: 19px;
-  padding-block: 10px;
+  line-height: 25px;
+  padding-block: 12px;
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-family: "Kiwi Maru";
@@ -97,5 +108,4 @@ h1{
 .main--facts > li::marker {
   font-size: 1.5rem;
   color:  #FFBB30;
-  
 }
