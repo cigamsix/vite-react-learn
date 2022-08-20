@@ -3,8 +3,8 @@ import React from "react"
 export default function Main() {
     return (
         <main>
-            <h1 className="main--title">猫から学んだ 8 のこと
-            <br/><sub>8 things I learned from cats</sub>
+            <h1 className="main--title">猫から学んだ 7 のこと
+            <br/><sub>7 things I learned from cats</sub>
             </h1>
             
             <div class="hero">

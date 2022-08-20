@@ -59,7 +59,7 @@ main {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.3;
   background-repeat: no-repeat;
   background-position: right 85% ;
 }
@@ -75,6 +75,7 @@ h1{
 small {
   color: rgb(255, 210, 221);
   font-weight: 1;
+  font-size: 1rem;
 }
 
 sub {
@@ -91,14 +92,14 @@ sub {
 
 .main--facts {
   margin-top: 46px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .main--facts > li {
   line-height: 25px;
   padding-block: 12px;
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "Kiwi Maru";
   letter-spacing: 0.08em;
   position: relative;
