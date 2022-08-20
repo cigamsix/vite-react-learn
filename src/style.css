@@ -236,6 +236,28 @@ nav {
 main {
   padding: 57px 27px;
   color: white;
+  
+}
+
+
+
+.hero {    
+  content: "";
+  background-image: url(./assets/yellow-cat.png);
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: right 85% ;
+}
+
+h1{
+  position: relative;
+  z-index: 100;
 }
 
 .main--title {
@@ -252,6 +274,10 @@ main {
 .main--facts > li {
   line-height: 19px;
   padding-block: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  position: relative;
+  z-index: 100;
 }
 
 .main--facts > li::marker {
