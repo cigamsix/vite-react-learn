@@ -11,6 +11,7 @@ export default function Main() {
                 <li>Has well over 100K stars on GitHub</li>
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
+                <li>Just want to try another fact</li>
             </ul>
         </main>
     )
