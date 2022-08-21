@@ -1,7 +1,3 @@
-/* :root {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  } */
-
 * {
   box-sizing: border-box;
 }
@@ -19,8 +15,6 @@ nav {
   background-color: #21222A;
   height: 90px;
   padding: 30px 25px;
-  position: relative;
-  z-index: 200;
 }
 
 .nav--logo_text, .nav--title {
@@ -29,84 +23,46 @@ nav {
 
 .nav--logo_text {
   margin-right: auto;
-  color: #FFBB30;
+  color: #61DAFB;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 22px;
 }
 
 .nav--title {
   color: #DEEBF8;
   font-weight: 600;
-  font-size: 1rem;
 }
 
 .nav--icon {
-  height: 80px;
+  height: 30px;
   margin-right: 7px;
 }
 
 main {
   padding: 57px 27px;
-  color: white; 
-}
-
-.hero {
-  content: "";
-  background-image: url(./assets/yellow-cat.png);
-  z-index: 1;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.3;
-  background-repeat: no-repeat;
-  background-position: right 85% ;
-}
-
-h1{
-  position: relative;
-  z-index: 100;
-  font-family: "Kiwi Maru";
-  font-weight: 1000;
   color: white;
-}
-
-small {
-  color: rgb(255, 210, 221);
-  font-weight: 1;
-  font-size: 1rem;
-}
-
-sub {
-  color: rgb(255, 210, 221);
-  font-size: 1.5rem;
-  font-weight: 1000;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
 
 .main--title {
   margin: 0;
-  font-size: 3rem;
-  letter-spacing: 0.05em;
+  font-size: 39px;
+  letter-spacing: -0.05em;
 }
 
 .main--facts {
   margin-top: 46px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .main--facts > li {
-  line-height: 25px;
-  padding-block: 12px;
-  color: rgb(255, 255, 255);
-  font-size: 1.5rem;
-  font-family: "Kiwi Maru";
-  letter-spacing: 0.08em;
-  position: relative;
-  z-index: 100;
+  line-height: 19px;
+  padding-block: 10px;
 }
 
 .main--facts > li::marker {
-  font-size: 1.5rem;
-  color:  #FFBB30;
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
